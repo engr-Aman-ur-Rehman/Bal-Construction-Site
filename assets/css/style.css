@@ -10647,6 +10647,13 @@ li.trackback {
   transform: translate(-50%, -50%);
 }
 
+.project-video {
+  /* margin-left: 150px;
+  padding-left: 100px; */
+  display: block;
+  margin: 0 auto;
+}
+
 /*------------------- 4.00. Category Menu -------------------*/
 /* Category 1 ---------------------------------- */
 .category-card {
