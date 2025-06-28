@@ -48,6 +48,20 @@
         });
     }
 
+    // PreLaod Backgroud Images of Hero Section
+    $(document).ready(function () {
+    $('.hero-wrapper[data-bg-src]').each(function () {
+        const bg = $(this).data('bg-src');
+        $(this).css('background-image', `url(${bg})`);
+    });
+    });
+    $(document).ready(function () {
+    $('.hero-experience-wrap[data-bg-src]').each(function () {
+        const bg = $(this).data('bg-src');
+        $(this).css('background-image', `url(${bg})`);
+    });
+    });
+
     /*---------- Mobile Menu Active ----------*/
     $.fn.mobilemenu = function (options) {
         var opt = $.extend(
