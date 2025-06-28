@@ -98,10 +98,10 @@
                 <p class="contact-text"><i class="ri-map-pin-line me-2"></i> 5 BAY, 19th Street, Apt 3B, BROOKLYN, New York - 11214</p>
                 <p class="footer-text"><a href="mailto:support@gmail.com"><i class="ri-mail-line me-2"></i>contact@balconstructioninc.com</a></p>
                 <div class="social-btn style3 mt-30">
-                    <a href="https://www.twitter.com/"><i class="ri-twitter-x-line"></i></a>
-                    <a href="https://instagram.com/"><i class="ri-instagram-line"></i></a>                           
-                    <a href="https://facebook.com/"><i class="ri-facebook-fill"></i></a>
-                    <a href="https://linkedin.com/"><i class="ri-linkedin-fill"></i></a>
+                    <a href="https://www.twitter.com/" aria-label="twitter page"><i class="ri-twitter-x-line" aria-hidden="true"></i></a>
+                    <a href="https://instagram.com/" aria-label="instagram page"><i class="ri-instagram-line" aria-hidden="true"></i></a>                           
+                    <a href="https://facebook.com/" aria-label="facebook page"><i class="ri-facebook-fill" aria-hidden="true"></i></a>
+                    <a href="https://linkedin.com/" aria-label="linkedin page"><i class="ri-linkedin-fill" aria-hidden="true"></i></a>
                 </div>
                 <div class="recent-post-wrap mt-40">
                     <div class="recent-post">
@@ -335,12 +335,30 @@
                         <div class="col-auto ms-auto d-xl-block d-none">
                             <div class="header-button">
                                 <a href="contact.html" class="btn">GET IN TOUCH <i class="ri-arrow-right-up-line"></i></a>
-                                <button type="button" class="search-btn searchBoxToggler simple-icon">
+                                <!-- <button type="button" class="search-btn searchBoxToggler simple-icon" >
                                     <i class="ri-search-line"></i>
                                 </button>
                                 <button type="button" class="sidebar-btn sideMenuToggler simple-icon">
                                     <i class="ri-grid-fill"></i>
-                                </button>
+                                </button> -->
+                                <button
+                                    type="button"
+                                    class="search-btn searchBoxToggler simple-icon"
+                                    aria-label="Open search"
+                                    title="Open search"
+                                    >
+                                    <i class="ri-search-line" aria-hidden="true"></i>
+                                    </button>
+
+                                    <!-- Sidebar/Menu Button -->
+                                    <button
+                                    type="button"
+                                    class="sidebar-btn sideMenuToggler simple-icon"
+                                    aria-label="Open sidebar menu"
+                                    title="Open sidebar menu"
+                                    >
+                                    <i class="ri-grid-fill" aria-hidden="true"></i>
+                                    </button>
                             </div>
                         </div>
                     </div>
@@ -435,8 +453,22 @@
         <div class="slider-controller-wrap">
             <div class="slider-btn-wrap">
                 <div class="icon-box">
-                    <button data-slick-prev=".hero-slider1" class="slick-arrow default"><i class="ri-arrow-left-down-line"></i></button>
-                    <button data-slick-next=".hero-slider1" class="slick-arrow default"><i class="ri-arrow-right-up-line"></i></button>
+                    <!-- <button data-slick-prev=".hero-slider1" class="slick-arrow default"><i class="ri-arrow-left-down-line"></i></button>
+                    <button data-slick-next=".hero-slider1" class="slick-arrow default"><i class="ri-arrow-right-up-line"></i></button> -->
+                    <button 
+                        data-slick-prev=".hero-slider1" 
+                        class="slick-arrow default"
+                        aria-label="Previous slide">
+                        <i class="ri-arrow-left-down-line" aria-hidden="true"></i>
+                        </button>
+
+                        <!-- Next Button -->
+                        <button 
+                        data-slick-next=".hero-slider1" 
+                        class="slick-arrow default"
+                        aria-label="Next slide">
+                        <i class="ri-arrow-right-up-line" aria-hidden="true"></i>
+                        </button>
                 </div>
                 <div class="slides-numbers">
                     <span class="active">01</span> / <span class="total"></span>
@@ -1087,8 +1119,8 @@
                     </div> 
                     <div class="btn-wrap mt-70">
                         <div class="icon-box">
-                            <button data-slick-prev=".testi-slider1" class="slick-arrow style2 default"><i class="ri-arrow-left-down-line"></i></button>
-                            <button data-slick-next=".testi-slider1" class="slick-arrow style2 default"><i class="ri-arrow-right-up-line"></i></button>
+                            <button data-slick-prev=".testi-slider1" class="slick-arrow style2 default" aria-label="Previous slide"></button>><i class="ri-arrow-left-down-line" aria-hidden="true"></i></button>
+                            <button data-slick-next=".testi-slider1" class="slick-arrow style2 default" aria-label="Next slide"></button>><i class="ri-arrow-right-up-line" aria-hidden="true"></i></button>
                         </div>
                         <div class="client-group-thumb">
                             <img src="assets/img/normal/client_group_1-2.png" alt="img">
@@ -1496,10 +1528,10 @@
                             </p>
                             <h3 class="widget_title">Follow Us</h3>
                             <div class="social-btn style2">
-                                <a href="https://www.twitter.com/"><i class="ri-twitter-x-line"></i></a>
-                                <a href="https://instagram.com/"><i class="ri-instagram-line"></i></a>                           
-                                <a href="https://facebook.com/"><i class="ri-facebook-fill"></i></a>
-                                <a href="https://linkedin.com/"><i class="ri-linkedin-fill"></i></a>
+                                <a href="https://www.twitter.com/" aria-label="twitter page"><i class="ri-twitter-x-line" aria-hidden="true"></i></a>
+                                <a href="https://instagram.com/" aria-label="instagram page"><i class="ri-instagram-line" aria-hidden="true"></i></a>                           
+                                <a href="https://facebook.com/" aria-label="Facebook page"><i class="ri-facebook-fill" aria-hidden="true"></i></a>
+                                <a href="https://linkedin.com/" aria-label="linkedin page"><i class="ri-linkedin-fill" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>                    
